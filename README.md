@@ -1,6 +1,6 @@
 # imagemagick-deployment-ubuntu
 
-Notes for installing imagemagick on cPanel servers running Ubuntu
+Notes for installing imagemagick on cPanel servers running Ubuntu.
  
 Build it and install to `/opt/imagemagick` on ubuntudev.
 Check out the instructions at https://imagemagick.org/script/install-source.php to get the latest version.
