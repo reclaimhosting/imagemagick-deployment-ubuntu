@@ -22,6 +22,7 @@ make
 make install
 
 # Clean up the ImageMagick Repo
+cd ..
 rm -rf ImageMagick-$LATEST
 
 # Make the tarball
