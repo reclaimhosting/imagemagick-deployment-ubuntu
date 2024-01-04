@@ -1,8 +1,10 @@
 # imagemagick-deployment-ubuntu
 
-Use `build.sh` on ubuntudev to install the lastest version to `/opt/imagemagick`
+Use `build.sh` on ubuntudev to install the lastest version to `/opt/imagemagick` and make a tarball.
 
-Grab the tarball and install it on other cPanel servers:
+Then, upload the tarball here. You should be able to just use git to commit the new file and push it to GitHub.
+
+Grab the tarball and test it on other cPanel servers:
 ```bash
 mkdir -p /opt/imagemagick
 curl https://raw.githubusercontent.com/reclaimhosting/imagemagick-deployment-ubuntu/main/imagemagick.tar.gz -o /opt/imagemagick/imagemagick.tar.gz
