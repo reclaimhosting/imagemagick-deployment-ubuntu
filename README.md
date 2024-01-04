@@ -2,7 +2,7 @@
 
 Use `build.sh` on ubuntudev to install the lastest version to `/opt/imagemagick` and make a tarball.
 
-Then, upload the tarball here. You should be able to just use git to commit the new file and push it to GitHub.
+Then, upload the tarball here. You should be able to just use git to commit the new file and push it to this repository.
 
 Grab the tarball and test it on other cPanel servers:
 ```bash
