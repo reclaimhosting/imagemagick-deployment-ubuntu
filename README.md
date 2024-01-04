@@ -15,7 +15,7 @@ Did it work?
 Then, upload the tarball here. You should be able to just use git to commit the new file and push it to this repository.
 ```bash
 git add imagemagick.tar.gz
-git commit -m '2024-01-04'
+git commit
 git push
 ```
 
