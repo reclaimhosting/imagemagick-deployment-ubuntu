@@ -30,6 +30,6 @@ rm /opt/rh-imagemagick/imagemagick.tar.gz
 ...or clone this repo and install it with the included script.
 ```
 git clone https://github.com/reclaimhosting/imagemagick-deployment-ubuntu.git && \
-cd imagemagick-deployment-ubuntu && \
+cd imagemagick-deployment-ubuntu
 bash install.sh
 ```

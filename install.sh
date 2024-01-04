@@ -6,6 +6,11 @@ OS_ID_LIKE=$(source /etc/os-release && echo $ID_LIKE)
 
 # If Ubuntu, install the custom version
 if [[ $OS_ID == *"ubuntu"*  || $OS_ID_LIKE == *"ubuntu"* ]]; then
+	# Check if dir exists
+	if [[ -d /opt/rh-imagemagick ]]; then
+		# If so, remove the old copy
+		rm -rf /opt/rh-imagemagick
+	fi
 	# Make the dirs
 	mkdir -p /opt/rh-imagemagick
 	# Copy the tarball over to the new dir
