@@ -7,7 +7,7 @@ git pull
 bash build.sh
 ```
 
-Check the version
+Did it work?
 ```bash
 /opt/imagemagick/bin/magick --version
 ```
@@ -15,7 +15,7 @@ Check the version
 Then, upload the tarball here. You should be able to just use git to commit the new file and push it to this repository.
 ```bash
 git add imagemagick.tar.gz
-git commit -m 'ImageMagick 7.1.1-26`
+git commit -m '2024-01-04'
 git push
 ```
 
