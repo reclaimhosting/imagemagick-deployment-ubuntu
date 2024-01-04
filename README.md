@@ -2,7 +2,7 @@
 
 Use `build.sh` on ubuntudev to install the lastest version to `/opt/imagemagick` and make a tarball.
 ```bash
-cd imagemagick-deployment-ubuntu
+cd ~/imagemagick-deployment-ubuntu
 git pull
 bash build.sh
 ```
@@ -14,6 +14,7 @@ Did it work?
 
 Then, upload the tarball here. You should be able to just use git to commit the new file and push it to this repository.
 ```bash
+cd ~/imagemagick-deployment-ubuntu
 git add imagemagick.tar.gz && git commit && git push
 ```
 
