@@ -26,5 +26,4 @@ cd ..
 rm -rf ImageMagick-$LATEST
 
 # Make the tarball
-cd /opt/imagemagick && tar -cvzf imagemagick.tar.gz . && cd -
-mv /opt/imagemagick/imagemagick.tar.gz .
+tar -czvf imagemagick.tar.gz -C /opt/imagemagick .
