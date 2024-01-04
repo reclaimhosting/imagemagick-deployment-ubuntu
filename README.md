@@ -2,7 +2,7 @@
 
 Use `build.sh` on ubuntudev to install the lastest version to `/opt/imagemagick` and make a tarball.
 ```bash
-cd imagemagick-depoyment-ubuntu
+cd imagemagick-deployment-ubuntu
 git pull
 bash build.sh
 ```
