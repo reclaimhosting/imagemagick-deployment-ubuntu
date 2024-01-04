@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Find the latest version of ImageMagick
 function get_latest {
@@ -10,14 +10,14 @@ sed 's/v//'
 LATEST=`get_latest`
 
 # Get rid of the existing version of ImageMagick
-rm -rf /opt/imagemagick
+rm -rf /opt/rh-imagemagick
 
 # Clone the ImageMagick repo
 git clone https://github.com/ImageMagick/ImageMagick.git ImageMagick-$LATEST
 cd ImageMagick-$LATEST
 
 # build it
-./configure --prefix=/opt/imagemagick --with-security-policy=websafe
+./configure --prefix=/opt/rh-imagemagick --with-security-policy=websafe
 make
 make install
 
@@ -26,4 +26,4 @@ cd ..
 rm -rf ImageMagick-$LATEST
 
 # Make the tarball
-tar -czvf imagemagick.tar.gz -C /opt/imagemagick .
+tar -czvf imagemagick.tar.gz -C /opt/rh-imagemagick .
