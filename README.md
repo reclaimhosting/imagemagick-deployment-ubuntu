@@ -14,9 +14,7 @@ Did it work?
 
 Then, upload the tarball here. You should be able to just use git to commit the new file and push it to this repository.
 ```bash
-git add imagemagick.tar.gz
-git commit
-git push
+git add imagemagick.tar.gz && git commit && git push
 ```
 
 Grab the tarball and test it on other cPanel servers:
