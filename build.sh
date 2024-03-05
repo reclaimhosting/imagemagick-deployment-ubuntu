@@ -17,7 +17,7 @@ git clone https://github.com/ImageMagick/ImageMagick.git ImageMagick-$LATEST
 cd ImageMagick-$LATEST
 
 # build it
-./configure --prefix=/opt/rh-imagemagick --with-security-policy=secure
+./configure --prefix=/opt/rh-imagemagick
 make
 make install
 
