@@ -15,7 +15,9 @@ Did it work?
 If so, then upload the tarball here. You should be able to just use git to commit the new file and push it to this repository.
 ```bash
 cd ~/imagemagick-deployment-ubuntu
-git add imagemagick.tar.gz && git commit && git push
+git add imagemagick.tar.gz
+git commit
+git push
 ```
 
 To install it, either grab the tarball and test it on other cPanel servers...
