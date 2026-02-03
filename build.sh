@@ -27,4 +27,4 @@ rm -rf ImageMagick-$LATEST
 
 # Make the tarball
 rm imagemagick.tar.gz
-tar -czvf imagemagick.tar.gz -C /opt/rh-imagemagick .
+tar -czvf $1 -C /opt/rh-imagemagick .
