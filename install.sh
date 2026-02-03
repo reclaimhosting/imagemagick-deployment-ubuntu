@@ -14,11 +14,11 @@ if [[ $OS_ID == *"ubuntu"*  || $OS_ID_LIKE == *"ubuntu"* ]]; then
 	# Make the dirs
 	mkdir -p /opt/rh-imagemagick
 	# Copy the tarball over to the new dir
-	cp imagemagick.tar.gz /opt/rh-imagemagick/imagemagick.tar.gz
+	cp imagemagick-22.tar.gz /opt/rh-imagemagick/imagemagick-22.tar.gz
 	# Extract the tarball into new dir
-	cd /opt/rh-imagemagick/ && tar -xvf imagemagick.tar.gz
+	cd /opt/rh-imagemagick/ && tar -xvf imagemagick-22.tar.gz
 	# Remove the tarball after it's extracted
-	rm /opt/rh-imagemagick/imagemagick.tar.gz
+	rm /opt/rh-imagemagick/imagemagick-22.tar.gz
 # If CentOS, create a symlink so paths match up
 elif [[ $OS_ID == *"centos"* || $OS_ID_LIKE == *"centos"* ]]; then
 	# If symlink does not exist
