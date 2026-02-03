@@ -20,16 +20,7 @@ git commit
 git push
 ```
 
-To install it, either grab the tarball and test it on other cPanel servers...
-```bash
-rm -rf /opt/rh-imagemagick
-mkdir -p /opt/rh-imagemagick
-curl https://raw.githubusercontent.com/reclaimhosting/imagemagick-deployment-ubuntu/main/imagemagick-22.tar.gz -o /opt/rh-imagemagick/imagemagick-22.tar.gz
-cd /opt/rh-imagemagick && tar -xvf imagemagick-22.tar.gz
-rm /opt/rh-imagemagick/imagemagick-22.tar.gz
-```
-
-...or clone this repo and install it with the included script.
+To install it clone this repo and install it with the included script.
 ```
 git clone https://github.com/reclaimhosting/imagemagick-deployment-ubuntu.git && \
 cd imagemagick-deployment-ubuntu
